@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.bb1.fabric.treefeller.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  	"BlockBreakMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

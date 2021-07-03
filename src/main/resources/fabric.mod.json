@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "treefeller",
+  "version": "${version}",
+
+  "name": "TreeFeller",
+  "description": "A mod to make cutting down trees easier!",
+  "authors": [
+    "BradBot_1"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "Apache License v2",
+  "icon": "assets/treefeller/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bb1.fabric.treefeller.Loader"
+    ]
+  },
+  "mixins": [
+    "treefeller.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16",
+    "bfapi": ">=1.1.1"
+  },
+  "suggests": {
+    "fastdecay": "*"
+  }
+}
